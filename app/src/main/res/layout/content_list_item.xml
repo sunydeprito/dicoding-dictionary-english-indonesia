@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/tiny_margin"
+    android:layout_marginLeft="@dimen/tiny_margin"
+    android:layout_marginRight="@dimen/tiny_margin"
+    android:layout_marginTop="@dimen/tiny_margin"
+    android:background="@drawable/bg_words"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/tiny_margin"
+    android:paddingLeft="@dimen/tiny_margin"
+    android:paddingRight="@dimen/tiny_margin"
+    android:paddingTop="@dimen/tiny_margin">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/image"
+            android:src="@drawable/baseline_keyboard_arrow_right_black" />
+
+        <TextView
+            android:id="@+id/tv_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="@string/words" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_word"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            tools:text="@string/Description" />
+    </RelativeLayout>
+</LinearLayout>
