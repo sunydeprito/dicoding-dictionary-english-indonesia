@@ -7,7 +7,7 @@ This is the third project of MADE course by dicoding.com. The aim of this projec
 ## Requirements or features in application
 1. Pages for English-Indonesian, and Indonesian-English.
 2. The process of loading data is only done when the application is first run (the process of loading data must be fast).
-3. Using dictionary data that is sourced from the text file format.
+3. Using dictionary data that is sourced from the text file format. [assets_database_dictionary.zip](https://github.com/sunydeprito/DictionaryEnglishIndonesia/files/2304752/assets_database_dictionary.zip)
 
 ## Library
 1. [Butter Knife](http://jakewharton.github.io/butterknife/) - Field and method binding for Android views
