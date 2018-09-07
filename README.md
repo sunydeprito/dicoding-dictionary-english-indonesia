@@ -14,4 +14,4 @@ This is the third project of MADE course by dicoding.com. The aim of this projec
 
 
 # Please be Noted
-For those who still do the project in MADE course please use this as reference only. Do not exactly copy this project without understand the concepts and flows of the codes. Hope this will help you to develop more project.
+For those who still do the project in MADE course please use this as reference only. Hope this will help you to develop more project.
